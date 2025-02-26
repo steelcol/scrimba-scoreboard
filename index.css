@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Digital";
+  src: url(/media/digital-7.ttf);
+}
+
+@font-face {
+  font-family: "DigitalDismay";
+  src: url(/media/DigitalDismay.otf);
+}
+
+body {
+    margin: 0;
+}
+
+.scoreboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+    background-color: #1B244A;
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+.team-name {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2vh;
+    font-size: 2em;
+}
+
+.score-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.score-container {
+    display: flex;
+    background-color: #080001;
+    max-height: 200px;
+    min-width: 100px;
+    max-width: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 20px;
+    height: 15vh;
+    border-radius: 6px;
+    line-height: 0;
+}
+
+.score {
+    display: flex;
+    flex: none;
+    width: 100%;
+    text-align: center;
+    font-family: "DigitalDismay";
+    font-weight: 100;
+    letter-spacing: .1em;
+    color: #F94F6D;
+    font-size: 6em;
+    justify-content: end;
+
+}
+
+.btn-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    gap: 8px;
+}
+
+.score-btn {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 0.1rem solid #9AABD8; 
+    cursor: pointer;
+    outline: none; 
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.4rem;
+    font-family: "DigitalDismay";
+    color: #9AABD8;
+}
+
+
+
+
+
+
+
+
