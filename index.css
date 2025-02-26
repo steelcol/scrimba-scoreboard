@@ -1,11 +1,6 @@
 @font-face {
-  font-family: "Digital";
-  src: url(/media/digital-7.ttf);
-}
-
-@font-face {
-  font-family: "DigitalDismay";
-  src: url(/media/DigitalDismay.otf);
+    font-family: "DigitalDismay";
+    src: url(/media/DigitalDismay.otf) format('opentype');
 }
 
 body {
